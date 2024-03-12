@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  
+}
+
+/*body, html{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-y: auto;
+} */
+
+body{
+  margin: 0;
+}
+.Title{
+  float: center;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+#upload{
+  float: center;
+  width: 100%;
+  background-color: darkgrey;
+  height: 17vh;
+  /*display: flex;
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box; */
+ 
+}
+
+#question{
+  float: center;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+  height: 85vh;
+  display: flex;
+  padding: 0;   
+  margin: 0;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0%;
+  
+}
+#logo{
+  height: 10vh;
+  width: 10vh;
+  background-color: #bbb;
+  border-radius: 50%;
+  position:absolute;
+  left: 3%;
+  top: 3%;
+  text-align: center; 
+  
+ 
+}
+#uploadbutton{
+ 
+  height: 10vh;
+  width: 15vw;
+  position:absolute;
+  right:5%;
+  top: 3%;
+  
+}
+
+
+#inputquestion{
+  
+  height: 8vh;
+  width: 80%;
+  position: absolute;
+  /*bottom: 7%;
+  left: 2.5%; 
+  margin: auto;
+  display: block; */
+
+}
+.questionbar{
+  bottom: 7%;
+  position: fixed;
+  width: 95%;
+  left: 10%;
+}
+
+.questionasked{
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  word-break: break-word;
+  
+}

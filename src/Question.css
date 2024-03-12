@@ -1,0 +1,22 @@
+/* Question.css */
+.chatHistory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+}
+
+.chatItem {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 70%;
+    /* Adjust width as needed */
+    max-width: 100%;
+    /* Maximum width for chat items */
+}
+
+.question,
+.answer {
+    margin: 10px 0;
+}
